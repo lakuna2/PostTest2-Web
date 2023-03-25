@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LixGym</title>
+    <link rel="stylesheet" href="/css/trial.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="beranda.html"> <span>Lix</span>Gym</a></div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="beranda.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="trainer.html">Trainer</a></li>
+                    <li><a href="trial.html" class="tbl-green">FREE TRIAL</a></li>
+                    <li><a href="redeem.html">Profile</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+
+    <div class="trimg">
+        <img src="/img/trial.png" width="100%">
+        <h1>Let's Try the club!</h1>
+    </div>
+
+    <div class="form-container">
+        <div class="form-body-container">
+            <div class="form-card vertically-center form-br-32">
+                <form>
+                    <h4>REEDEM FREE TRIAL ANDA!</h4>
+                    
+                    <div class="form-item">
+                        <label>Pilih Kotamu</label>
+                        <select class name="city" id="city">
+                            <option value="JAKARTA">JAKARTA</option>
+                            <option value="BANDUNG">BANDUNG</option>
+                            <option value="KALIMANTAN TIMUR">KALIMANTAN TIMUR</option>
+                            <option value="MAKASSAR">MAKASSAR</option>
+                        </select>
+                    </div> <br>
+
+                    <div class="gender">
+                        <label>Gender</label>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="Laki-Laki" value="option1"> Laki-Laki
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="Perempuan" value="option2">Perempuan
+                          </div>
+                    </div> <br>
+
+                    <div class="form-item">
+                        <label>Nama Anda</label>
+                        <div class="input-group">
+                            <select class="prefix-dropdown" name="call">
+                                <option value="Male">Tuan</option>
+                                <option value="Female">Nyonya</option>
+                                <option value="Female">Nona</option>
+                            </select>
+                            <input type="text" class="short-input" placeholder="How can we call you?" name="name" id="name">
+                        </div>
+                    </div> <br>
+
+                    <div class="form-item">
+                        <label>Email Anda</label>
+                        <input type="email" placeholder="Please fill your active email" name="email" id="email">
+                        <span>example @example.com</span>
+                    </div><br>
+
+                    <div class="exercise">
+                        <label>Latihan apa saja yang ingin anda lakukan di gym?</label> <br>
+                        <input type="checkbox" name="exercise" value="Squat">Squat
+                        <input type="checkbox" name="exercise" value="Box Jump">Box Jump
+                        <input type="checkbox" name="exercise" value="Plank">Plank
+                        <input type="checkbox" name="exercise" value="Bench Press">Bench Press
+                        <input type="checkbox" name="exercise" value="Treadmill">Treadmill
+                    </div>
+                    <br>
+
+                    <div class = "teks-area">
+                        <label>Alasan Anda Dalam Mendaftar</label>
+                        <textarea 
+                            cols="48"  
+                            rows="7" 
+                            name="teks"
+                            id="teks">
+                        </textarea>
+                    </div>
+
+                    <div class="form-item" style="padding-top: 0.75em;">
+                        <div class="checkbox-container">
+                            <input type="checkbox" id="subscribe-checkbox" class="square-checkbox" checked>
+                            <label for="subscribe-checkbox" class="input-label">
+                                Subscribe to our News Letters
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <div class="checkbox-container">
+                            <input type="checkbox" id="privacy-checkbox" class="square-checkbox">
+                            <label for="privacy-checkbox" class="input-label">
+                                I've read and agree to Data Privacy policy
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="submit-container">
+                        <input class="submit-button width-full" type="submit" value="REDEEM" href="redeem.html">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot">
+            <div class="flogo"><span>LIX</span>GYM</div>
+            <div class="fteks">
+                <h6>© LIXGYM 2023 - All Rights Reserved | Made With ❤️</h6>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+    <script src="/js/trial.js"></script>
+</html>

@@ -1,0 +1,66 @@
+/* === START REDEEM=== */
+
+  h1 {
+    text-align: center;
+    color: #333333;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  .label {
+    font-weight: bold;
+    display: inline-block;
+    width: 120px;
+    margin-right: 10px;
+  }
+
+  .ft1{
+    color: #a5a4a4;
+    background-color: #252525;
+    text-align: center;
+  }
+
+  .btn {
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    
+    text-decoration: none;
+    padding: 20px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+  }
+  
+  .tombol{
+    padding-top: 50px;
+    text-align: center;
+  }
+/* === END REDEEM=== */
