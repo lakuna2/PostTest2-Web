@@ -19,7 +19,8 @@ Menginput data pada form yang nantinya akan disimpan di session storage
 
 
 Data tersimpan di session storage
-![7](https://user-images.githubusercontent.com/92621677/227735782-e76907ae-c798-4e3b-aa67-518843326e3e.jpeg)
+![7](https://user-images.githubusercontent.com/92621677/227735875-2d35cd5d-9d6a-4375-9f84-ab1bb5210313.jpeg)
+
 
 Menampilkan data form yang tersimpan di session storage
 ![6](https://user-images.githubusercontent.com/92621677/227735793-45a3d6ee-4197-4c3e-bff6-e70fd0fbe12d.jpeg)
